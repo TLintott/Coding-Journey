@@ -59,7 +59,7 @@
         }
 
         .third-section{
-            background-color: #fff;
+            background-color: #1D1D20;
         }
         .third-container{  
           padding-top: 50px;
@@ -78,7 +78,7 @@
   --main-color: #dedede;
   --sub-color: #ccc;
   --bg-color: #323232;
-  --accent-color: #BC8D66;
+  --accent-color: #b566bc;
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 270px;
@@ -170,50 +170,16 @@
   box-shadow: 0px 0px 20px -5px #000;
 }
 
-/* remove svg from class ="card__img" and last styles below css code before use */
-.st1 {
-  fill: #fff
-}
+ .a-link-card{
+    color: #fff;
+    text-decoration: none;
+ }
 
-.st2 {
-  fill: none;
-  stroke: #242c88;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10
-}
+ .a-link-card:hover{
+    text-decoration: underline;
+ }
 
-.st7 {
-  fill: #589fff
-}
 
-.st9 {
-  fill: #bc8d66
-}
-
-.st15,.st16 {
-  opacity: .4;
-  fill: #242c88
-}
-
-.st16 {
-  opacity: .2
-}
-
-.st18 {
-  fill: #ffc408
-}
-
-.st53 {
-  fill: none;
-  stroke: #242c88;
-  stroke-width: 1.848;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10
-}
-       
     </style>
 </head>
 <body>
@@ -278,15 +244,15 @@ and am delighted with the outcome. You can view the final version <a href="">her
 <section class="third-section">
 <h3>My Favourite Projects </h3>
 <div class="third-container" >
-  <div class="row">
-    <div class="col-sm-4 border"><div class="card">
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-4 d-flex justify-content-center"><div class="card">
         <div class="card__img">
             <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/636/original/Travel.png?1698925456"
                 class="img-fluid" />
         </div>
         <div class="card__subtitle">CSS & HTML</div>
         <div class="card__wrapper">
-            <div class="card__title"><a href="https://traveltomauritius.netlify.app/">Travel Project</a></div>
+            <div class="card__title"><a href="https://traveltomauritius.netlify.app/" class="a-link-card">Travel Project</a></div>
             <div class="card__icon"><svg color="rgb(224, 223, 220)"
                     style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(224, 223, 220); flex-shrink: 0; cursor: auto;"
                     viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
@@ -302,14 +268,14 @@ and am delighted with the outcome. You can view the final version <a href="">her
                 </svg></div>
             </div>
     </div></div>
-    <div class="col-sm-4 border"><div class="card">
+    <div class="col-sm-4 d-flex justify-content-center "><div class="card">
         <div class="card__img">
             <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/640/original/weather.png?1698925730"
                 class="img-fluid" />
         </div>
         <div class="card__subtitle">JS, CSS & HTML</div>
         <div class="card__wrapper">
-            <div class="card__title"><a href="https://roaring-phoenix-945815.netlify.app/">Weather App</a></div>
+            <div class="card__title"><a href="https://roaring-phoenix-945815.netlify.app/"  class="a-link-card">Weather App</a></div>
             <div class="card__icon"><svg color="rgb(224, 223, 220)"
                     style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(224, 223, 220); flex-shrink: 0; cursor: auto;"
                     viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
@@ -327,7 +293,7 @@ and am delighted with the outcome. You can view the final version <a href="">her
         </div>
     </div></div>
 
-<div class="col-sm-4 border">
+<div class="col-sm-4 d-flex justify-content-center">
 
     <div class="card">
         <div class="card__img">
@@ -336,7 +302,7 @@ and am delighted with the outcome. You can view the final version <a href="">her
         </div>
         <div class="card__subtitle">CSS & HTML</div>
         <div class="card__wrapper">
-            <div class="card__title"> <a href="https://luxury-bunny-45ee46.netlify.app/">Food Project</a></div>
+            <div class="card__title"> <a href="https://luxury-bunny-45ee46.netlify.app/"  class="a-link-card">Food Project</a></div>
             <div class="card__icon"><svg color="rgb(224, 223, 220)"
                     style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(224, 223, 220); flex-shrink: 0; cursor: auto;"
                     viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
