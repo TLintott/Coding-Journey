@@ -92,11 +92,29 @@
         }
 
         .weather-img{
-      border-radius: 5px;
-         margin-right:61.667px;
-            padding-left: 12px;
+           margin-right:61.667px;
+          
         }
+.img-card{
+      --main-color: #dedede;
+  --sub-color: #ccc;
+  --bg-color: #323232;
+  --accent-color: #6E85B2;
+  position: relative;
+ font-family: 'M PLUS 1 Code', monospace;
+  padding: 25px;
+  border-radius: 25px;
+  gap: 5px;
+  background-color: var(--bg-color);
+  transition: all 0.2s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px -1.5px #000;
 
+}
+
+.p-col{
+padding-right: 24px;
+}
         .third-section{
             background-color: #261C2C;
         }
@@ -328,7 +346,7 @@ footer{
 <section class="section-sections">
  <div class=container>
  <div class="row">
- <div class="col-sm">  
+ <div class="col-sm p-col">  
 <h3> My Most Challengeing Project</h3>
 <h4>React Weather Project</h4>
 <p>
@@ -336,12 +354,13 @@ Learning React at a time when I was already struggling with JavaScript was, shal
 least. There were moments when I was ready to throw my computer out the window, however, I eventually made it through
 and am delighted with the outcome. 
 </p>
-<p>You can view the final version <a href="">here</a></p>
+<p>You can view the final version <a href="https://ornate-sorbet-1cc62d.netlify.app/" target="_blank">here</a></p>
 </div>  
 <div class="col-sm">
+    <div class="img-card">
   <img 
   src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/629/original/ReactWeatherProject.png?1698919241"
-  class="img-fluid weather-img"/>    
+  class="img-fluid weather-img"/> </div>
 </div>
 </div> 
 </div>  
@@ -425,6 +444,7 @@ and am delighted with the outcome.
 
         </div>
     </div>
+    
 </div>
 
 
