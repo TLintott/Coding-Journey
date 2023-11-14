@@ -31,6 +31,10 @@
     
         }
         
+        a{
+            color: #fff;
+        }
+
         nav {
 	        margin:0;
 	        padding:0;
@@ -49,12 +53,6 @@
             font-size: 64px;
             transition:all .05s ease-in-out;
         }
-        h1:hover{
-            cursor: pointer;
-            color: #fff;
-        }
-
-
 
         h2{
             margin-bottom: 15px;
@@ -75,6 +73,17 @@
         .project-list{
             margin-left: 18px;
             list-style: none;
+        }
+
+        .project-links{
+            text-decoration: none;
+            color: #fff;
+            transition: all 1.5s ease-in-out;
+        }
+
+        .project-links:hover{
+            text-decoration: underline;
+            
         }
         .section-sections{
             margin-left:61.667px;
@@ -280,9 +289,9 @@ footer{
     <div class="container-box">
     <nav>
         <ul>
-            <li><i class="fa-brands fa-linkedin"></i></li>
-            <li><i class="fa-brands fa-github"></i></li>
-            <li> <i class="fa-regular fa-envelope"></i></i></li>
+            <li> <a href="https://www.linkedin.com/in/tracey-lintott/"target="_blank"><i class="fa-brands fa-linkedin"></i> </a> </li>
+            <li> <a href="https://github.com/TLintott" target="_blank"><i class="fa-brands fa-github"></i> </a></li>
+            <li> <a href="mailto:traceyj28@hotmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> </a></li>
         </ul>
     </nav>
 <section>
@@ -304,10 +313,10 @@ footer{
 <br />
 <h2>Projects</h2>
 <ul class="project-list">
-    <li><a href="https://tlworldclockproject.netlify.app/" target="_blank">World Clock</a></li>
-    <li><a href="https://traveltomauritius.netlify.app/" target="_blank">Travel Project</a> </li>
-    <li><a href="https://ornate-sorbet-1cc62d.netlify.app/" target="_blank">React Weather App</a></li>
-    <li><a href="https://barbielandingpage.netlify.app/" target="_blank">Barbie Movie Project</a></li>
+    <li><a href="https://tlworldclockproject.netlify.app/" target="_blank" class="project-links">World Clock</a></li>
+    <li><a href="https://traveltomauritius.netlify.app/" target="_blank" class="project-links">Travel Project</a> </li>
+    <li><a href="https://ornate-sorbet-1cc62d.netlify.app/" target="_blank" class="project-links">React Weather App</a></li>
+    <li><a href="https://barbielandingpage.netlify.app/" target="_blank" class="project-links">Barbie Movie Project</a></li>
 </ul>
 </div>
 
